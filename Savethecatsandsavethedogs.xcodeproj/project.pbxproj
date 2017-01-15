@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F48A307F1E2C0EAD005947B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48A307E1E2C0EAD005947B5 /* AppDelegate.swift */; };
+		F48A30811E2C0EAD005947B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48A30801E2C0EAD005947B5 /* ViewController.swift */; };
+		F48A30841E2C0EAD005947B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48A30821E2C0EAD005947B5 /* Main.storyboard */; };
+		F48A30871E2C0EAD005947B5 /* Savethecatsandsavethedogs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F48A30851E2C0EAD005947B5 /* Savethecatsandsavethedogs.xcdatamodeld */; };
+		F48A30891E2C0EAD005947B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48A30881E2C0EAD005947B5 /* Assets.xcassets */; };
+		F48A308C1E2C0EAD005947B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48A308A1E2C0EAD005947B5 /* LaunchScreen.storyboard */; };
+		F48A30971E2C0EAD005947B5 /* SavethecatsandsavethedogsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48A30961E2C0EAD005947B5 /* SavethecatsandsavethedogsTests.swift */; };
+		F48A30A21E2C0EAD005947B5 /* SavethecatsandsavethedogsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48A30A11E2C0EAD005947B5 /* SavethecatsandsavethedogsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F48A30931E2C0EAD005947B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48A30731E2C0EAD005947B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F48A307A1E2C0EAD005947B5;
+			remoteInfo = Savethecatsandsavethedogs;
+		};
+		F48A309E1E2C0EAD005947B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48A30731E2C0EAD005947B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F48A307A1E2C0EAD005947B5;
+			remoteInfo = Savethecatsandsavethedogs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F48A307B1E2C0EAD005947B5 /* Savethecatsandsavethedogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Savethecatsandsavethedogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48A307E1E2C0EAD005947B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F48A30801E2C0EAD005947B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F48A30831E2C0EAD005947B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F48A30861E2C0EAD005947B5 /* Savethecatsandsavethedogs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Savethecatsandsavethedogs.xcdatamodel; sourceTree = "<group>"; };
+		F48A30881E2C0EAD005947B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F48A308B1E2C0EAD005947B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F48A308D1E2C0EAD005947B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48A30921E2C0EAD005947B5 /* SavethecatsandsavethedogsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavethecatsandsavethedogsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48A30961E2C0EAD005947B5 /* SavethecatsandsavethedogsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavethecatsandsavethedogsTests.swift; sourceTree = "<group>"; };
+		F48A30981E2C0EAD005947B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48A309D1E2C0EAD005947B5 /* SavethecatsandsavethedogsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavethecatsandsavethedogsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48A30A11E2C0EAD005947B5 /* SavethecatsandsavethedogsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavethecatsandsavethedogsUITests.swift; sourceTree = "<group>"; };
+		F48A30A31E2C0EAD005947B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F48A30781E2C0EAD005947B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48A308F1E2C0EAD005947B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48A309A1E2C0EAD005947B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F48A30721E2C0EAD005947B5 = {
+			isa = PBXGroup;
+			children = (
+				F48A307D1E2C0EAD005947B5 /* Savethecatsandsavethedogs */,
+				F48A30951E2C0EAD005947B5 /* SavethecatsandsavethedogsTests */,
+				F48A30A01E2C0EAD005947B5 /* SavethecatsandsavethedogsUITests */,
+				F48A307C1E2C0EAD005947B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F48A307C1E2C0EAD005947B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48A307B1E2C0EAD005947B5 /* Savethecatsandsavethedogs.app */,
+				F48A30921E2C0EAD005947B5 /* SavethecatsandsavethedogsTests.xctest */,
+				F48A309D1E2C0EAD005947B5 /* SavethecatsandsavethedogsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F48A307D1E2C0EAD005947B5 /* Savethecatsandsavethedogs */ = {
+			isa = PBXGroup;
+			children = (
+				F48A307E1E2C0EAD005947B5 /* AppDelegate.swift */,
+				F48A30801E2C0EAD005947B5 /* ViewController.swift */,
+				F48A30821E2C0EAD005947B5 /* Main.storyboard */,
+				F48A30881E2C0EAD005947B5 /* Assets.xcassets */,
+				F48A308A1E2C0EAD005947B5 /* LaunchScreen.storyboard */,
+				F48A308D1E2C0EAD005947B5 /* Info.plist */,
+				F48A30851E2C0EAD005947B5 /* Savethecatsandsavethedogs.xcdatamodeld */,
+			);
+			path = Savethecatsandsavethedogs;
+			sourceTree = "<group>";
+		};
+		F48A30951E2C0EAD005947B5 /* SavethecatsandsavethedogsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F48A30961E2C0EAD005947B5 /* SavethecatsandsavethedogsTests.swift */,
+				F48A30981E2C0EAD005947B5 /* Info.plist */,
+			);
+			path = SavethecatsandsavethedogsTests;
+			sourceTree = "<group>";
+		};
+		F48A30A01E2C0EAD005947B5 /* SavethecatsandsavethedogsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F48A30A11E2C0EAD005947B5 /* SavethecatsandsavethedogsUITests.swift */,
+				F48A30A31E2C0EAD005947B5 /* Info.plist */,
+			);
+			path = SavethecatsandsavethedogsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F48A307A1E2C0EAD005947B5 /* Savethecatsandsavethedogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48A30A61E2C0EAD005947B5 /* Build configuration list for PBXNativeTarget "Savethecatsandsavethedogs" */;
+			buildPhases = (
+				F48A30771E2C0EAD005947B5 /* Sources */,
+				F48A30781E2C0EAD005947B5 /* Frameworks */,
+				F48A30791E2C0EAD005947B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Savethecatsandsavethedogs;
+			productName = Savethecatsandsavethedogs;
+			productReference = F48A307B1E2C0EAD005947B5 /* Savethecatsandsavethedogs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F48A30911E2C0EAD005947B5 /* SavethecatsandsavethedogsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48A30A91E2C0EAD005947B5 /* Build configuration list for PBXNativeTarget "SavethecatsandsavethedogsTests" */;
+			buildPhases = (
+				F48A308E1E2C0EAD005947B5 /* Sources */,
+				F48A308F1E2C0EAD005947B5 /* Frameworks */,
+				F48A30901E2C0EAD005947B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F48A30941E2C0EAD005947B5 /* PBXTargetDependency */,
+			);
+			name = SavethecatsandsavethedogsTests;
+			productName = SavethecatsandsavethedogsTests;
+			productReference = F48A30921E2C0EAD005947B5 /* SavethecatsandsavethedogsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F48A309C1E2C0EAD005947B5 /* SavethecatsandsavethedogsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48A30AC1E2C0EAD005947B5 /* Build configuration list for PBXNativeTarget "SavethecatsandsavethedogsUITests" */;
+			buildPhases = (
+				F48A30991E2C0EAD005947B5 /* Sources */,
+				F48A309A1E2C0EAD005947B5 /* Frameworks */,
+				F48A309B1E2C0EAD005947B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F48A309F1E2C0EAD005947B5 /* PBXTargetDependency */,
+			);
+			name = SavethecatsandsavethedogsUITests;
+			productName = SavethecatsandsavethedogsUITests;
+			productReference = F48A309D1E2C0EAD005947B5 /* SavethecatsandsavethedogsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F48A30731E2C0EAD005947B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Earl Elmore";
+				TargetAttributes = {
+					F48A307A1E2C0EAD005947B5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6M8GH3GGGF;
+						ProvisioningStyle = Automatic;
+					};
+					F48A30911E2C0EAD005947B5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6M8GH3GGGF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F48A307A1E2C0EAD005947B5;
+					};
+					F48A309C1E2C0EAD005947B5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6M8GH3GGGF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F48A307A1E2C0EAD005947B5;
+					};
+				};
+			};
+			buildConfigurationList = F48A30761E2C0EAD005947B5 /* Build configuration list for PBXProject "Savethecatsandsavethedogs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F48A30721E2C0EAD005947B5;
+			productRefGroup = F48A307C1E2C0EAD005947B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F48A307A1E2C0EAD005947B5 /* Savethecatsandsavethedogs */,
+				F48A30911E2C0EAD005947B5 /* SavethecatsandsavethedogsTests */,
+				F48A309C1E2C0EAD005947B5 /* SavethecatsandsavethedogsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F48A30791E2C0EAD005947B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48A308C1E2C0EAD005947B5 /* LaunchScreen.storyboard in Resources */,
+				F48A30891E2C0EAD005947B5 /* Assets.xcassets in Resources */,
+				F48A30841E2C0EAD005947B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48A30901E2C0EAD005947B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48A309B1E2C0EAD005947B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F48A30771E2C0EAD005947B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48A30811E2C0EAD005947B5 /* ViewController.swift in Sources */,
+				F48A30871E2C0EAD005947B5 /* Savethecatsandsavethedogs.xcdatamodeld in Sources */,
+				F48A307F1E2C0EAD005947B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48A308E1E2C0EAD005947B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48A30971E2C0EAD005947B5 /* SavethecatsandsavethedogsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48A30991E2C0EAD005947B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48A30A21E2C0EAD005947B5 /* SavethecatsandsavethedogsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F48A30941E2C0EAD005947B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F48A307A1E2C0EAD005947B5 /* Savethecatsandsavethedogs */;
+			targetProxy = F48A30931E2C0EAD005947B5 /* PBXContainerItemProxy */;
+		};
+		F48A309F1E2C0EAD005947B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F48A307A1E2C0EAD005947B5 /* Savethecatsandsavethedogs */;
+			targetProxy = F48A309E1E2C0EAD005947B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F48A30821E2C0EAD005947B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48A30831E2C0EAD005947B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F48A308A1E2C0EAD005947B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48A308B1E2C0EAD005947B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F48A30A41E2C0EAD005947B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F48A30A51E2C0EAD005947B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F48A30A71E2C0EAD005947B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6M8GH3GGGF;
+				INFOPLIST_FILE = Savethecatsandsavethedogs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.earlelmore.Savethecatsandsavethedogs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F48A30A81E2C0EAD005947B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6M8GH3GGGF;
+				INFOPLIST_FILE = Savethecatsandsavethedogs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.earlelmore.Savethecatsandsavethedogs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F48A30AA1E2C0EAD005947B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6M8GH3GGGF;
+				INFOPLIST_FILE = SavethecatsandsavethedogsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.earlelmore.SavethecatsandsavethedogsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Savethecatsandsavethedogs.app/Savethecatsandsavethedogs";
+			};
+			name = Debug;
+		};
+		F48A30AB1E2C0EAD005947B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6M8GH3GGGF;
+				INFOPLIST_FILE = SavethecatsandsavethedogsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.earlelmore.SavethecatsandsavethedogsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Savethecatsandsavethedogs.app/Savethecatsandsavethedogs";
+			};
+			name = Release;
+		};
+		F48A30AD1E2C0EAD005947B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6M8GH3GGGF;
+				INFOPLIST_FILE = SavethecatsandsavethedogsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.earlelmore.SavethecatsandsavethedogsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Savethecatsandsavethedogs;
+			};
+			name = Debug;
+		};
+		F48A30AE1E2C0EAD005947B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6M8GH3GGGF;
+				INFOPLIST_FILE = SavethecatsandsavethedogsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.earlelmore.SavethecatsandsavethedogsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Savethecatsandsavethedogs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F48A30761E2C0EAD005947B5 /* Build configuration list for PBXProject "Savethecatsandsavethedogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48A30A41E2C0EAD005947B5 /* Debug */,
+				F48A30A51E2C0EAD005947B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48A30A61E2C0EAD005947B5 /* Build configuration list for PBXNativeTarget "Savethecatsandsavethedogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48A30A71E2C0EAD005947B5 /* Debug */,
+				F48A30A81E2C0EAD005947B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F48A30A91E2C0EAD005947B5 /* Build configuration list for PBXNativeTarget "SavethecatsandsavethedogsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48A30AA1E2C0EAD005947B5 /* Debug */,
+				F48A30AB1E2C0EAD005947B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F48A30AC1E2C0EAD005947B5 /* Build configuration list for PBXNativeTarget "SavethecatsandsavethedogsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48A30AD1E2C0EAD005947B5 /* Debug */,
+				F48A30AE1E2C0EAD005947B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F48A30851E2C0EAD005947B5 /* Savethecatsandsavethedogs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F48A30861E2C0EAD005947B5 /* Savethecatsandsavethedogs.xcdatamodel */,
+			);
+			currentVersion = F48A30861E2C0EAD005947B5 /* Savethecatsandsavethedogs.xcdatamodel */;
+			path = Savethecatsandsavethedogs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F48A30731E2C0EAD005947B5 /* Project object */;
+}
